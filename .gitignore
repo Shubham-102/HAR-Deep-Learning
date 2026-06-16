@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Data & checkpoints (too large for git)
+checkpoints/*.pth
+results/*.png
+*.tar.gz
+
+# Dataset — download separately
+UCI HAR Dataset/
+WISDM_ar_v1.1/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
